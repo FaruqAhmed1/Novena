@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar-nav li {
+    padding: 0 5px;
+    
+}
+.navbar{
+    padding: 25px 0;
+}
+.navbar-nav li a{
+    font-size: 17px;
+    font-weight: 600;
+    color:black;
+    
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    margin-top: 0;
+    border-top: 5px solid red;
+}
+.dropdown-menu li a:hover{
+    color: red;
+    
+}
+#background-one{
+    background-image: url(/assets/images/bg/slider-bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;   
+}
+
+
+.background-one hr{
+    width: 50px;
+    margin-top: 80px;
+    margin-left: 10px;
+    height: 5px;
+    color: red;
+    z-index: 10;
+    opacity: 1 !important;
+}
+.background-one .pheader{
+    letter-spacing: 3px;
+    padding:10px;
+}
+.background-one .pbody{
+    font-size: 50px ;
+    font-weight: 800;
+}
+.background-one .btn-primary{
+    margin-top: 10px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 50px;
+    color: white;
+}
+.background-one .btn-primary:hover{
+    background-color: red;
+    border: none;
+    
+}
+#card .card .btn-primary{
+    margin-top: 10px ;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+    color: white;
+}
+#card .card .btn-primary:hover{
+    background-color: red;
+    border: none;
+    
+}
+#card .card{
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: -120px;
+}
+#card .card-body{
+    min-height: 280px;
+}
+#card .card i{
+
+    font-size: 40px;
+    margin: 10px;
+
+        }
+#card .card ul {
+    list-style-type: none;
+}
+#card .card ul span{
+    margin-left: 80px;
+}
+
+
+.services{
+    padding: 30px;
+    margin-top: 40px;
+    
+}
+.services img{
+border-radius: 10px;
+}
+.services-three{
+padding-left: 30px;
+}
+.services span{
+font-size: 43px;
+font-weight: 700;
+margin-bottom: 10px;
+line-height: 40px;
+padding-top: 10px;
+}
+
+.services .img-one{
+margin-bottom: 20px;
+}
+.services .btn-primary{
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 180px;
+    border-radius: 50px;
+    color: white;
+
+}
+.services .btn-primary:hover{
+background-color: red;
+border: none;
+
+}
+.services p{
+margin-top: 30px;
+}
+
+/* section counter */
+#counter{
+padding: 100px 0  ;
+
+}
+.counter{
+background-color: #223a66;
+padding: 40px;
+text-align: center;
+}
+.counter .h1{
+font-size: 60px;
+font-weight: 700;
+color: #fff;
+}
+.counter p{
+color: #fff;
+margin-bottom: 5px;
+}
+.counter .icon{
+color: #fff;
+}
+
+
+/* section care  */
+
+#care {
+padding: 100px  0;
+background-color: #f4f9fc;
+} 
+#care .head h1{
+font-size: 40px;
+font-weight: 700;
+padding-bottom: 25px;
+text-align: center;
+}  
+
+#care .head P{
+font-size: 16px;
+
+text-align: center;
+
+}
+#care .cardrow-one {
+    padding-top: 44px;
+}
+#care .card{
+    padding: 20px 15px;
+    border-radius: 20px;
+}
+
+#care .card{
+    min-height: 200px;
+}
+#care .card i{
+    font-size: 50px;
+    color: #e12454;
+    position: relative;
+
+}
+
+#care .card span{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    position: absolute;
+    margin-left: 75px;
+margin-top: 21px;
+}
+/*---- section Appoinment ---*/
+
+#appoinment{
+padding: 100px 0;
+}
+#appoinment img{
+width: 85%;
+}
+#appoinment .emergancy-contact{
+position: relative;
+}
+
+#appoinment .text{
+background-color:#223a66; 
+width: 500px;
+padding: 50px 0;
+text-align: center;
+font-size: 50px;
+font-weight: 600;
+color: #fff;
+
+}
+#appoinment .text i{
+color: rgba(255, 255, 255, 0.7);
+font-size:40px ;
+
+
+}
+#appoinment .form-title{
+margin:40px 2px;
+}
+#appoinment .emergency-num{
+position: absolute;
+margin-left: 20px;
+margin-top: -180px;
+}
+
+#appoinment .form-title h1{
+font-weight: 600;
+}
+#appoinment .form-control{
+background: #f4f9fc;
+height: 55px;
+border-color: rgba(0, 0, 0, 0.05);
+}
+#appoinment .form-select{
+background: #f4f9fc;
+height: 55px;
+border-color: rgba(0, 0, 0, 0.05);
+}
+#appoinment .btn-primary{
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 180px;
+    border-radius: 50px;
+    color: white;
+
+}
+#appoinment #exampleFormControlTextarea1{
+height: 150px;
+}
+#appoinment .btn-primary:hover{
+background-color: red;
+border: none;
+
+}
+/* ----- section----- */
+.carousel-one{
+    background-color: #6F8BA4;;
+}
+.carousel-one span{
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.carousel-one p{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+    
+}
+.swiper-slide img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid #eff0f3;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+}.swiper-slide .title{
+    display: inline;
+    position: absolute;
+    margin-left: 105px;
+    padding: 19px;
+}
+.swiper-slide .card{
+    min-height: 250px;
+}
+
+/* ----section carousel two---- */
+.carousel-two  p{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.carousel-two span{
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+/* ----footer---- */
+
+.footer{
+background-color: #f4f9fc;;
+padding: 100px 0 ;
+}
+.footer .first-col p{
+    line-height: 30px;
+}
+
+.footer i{
+    color: #fff;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 8px;
+    border: 1px solid ;
+    background: #6F8BA4;
+}
+.footer .second-col{
+    margin-right: 20px;
+}
+.footer .second-col h2{
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer .second-col h6{
+    padding: 5px 0;
+}
+.footer .second-col h6:hover{
+   color: red;
+}
